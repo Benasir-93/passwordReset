@@ -3,14 +3,14 @@ import nodemailer from 'nodemailer'
 const transporter = nodemailer.createTransport({
   service: "gmail",
   auth: {
-    user: "karthiga.r2002@gmail.com",
-    pass: "xibn zvlg fjlv ubtq",
+    user: "ibrahimfaizal1985@gmail.com",
+    pass: "yaks cnqk olep fbma",
   },
 });
 
  const sendResetPasswordEmail = async (to, resetLink) => {
   const mailOptions = {
-    from: "karthiga.r2002@gmail.com",
+    from: "ibrahimfaizal1985@gmail.com",
     to ,
     subject: "Password Reset",
     html: `Click the following link to reset your password: <a href="${resetLink}">${resetLink}</a>`,

@@ -26,6 +26,6 @@ userSchema.pre("save", function (next) {
   });
 });
 
-const User = mongoose.model("User", userSchema);
+const User = mongoose.model("UserPasswordReset", userSchema);
 
 export default User
